@@ -275,6 +275,19 @@ h1 {
   background-size: 200%;
   margin-right: 10px;
 }
+
+/* Tùy chỉnh nền đen và chữ trắng */
+.cryptocompare-widget {
+  background-color: #000 !important; /* Nền đen */
+  color: #fff !important; /* Chữ trắng */
+}
+
+/* Tùy chỉnh thêm cho các phần tử bên trong */
+.cryptocompare-widget * {
+  color: #fff !important; /* Tất cả các phần tử bên trong sẽ có chữ trắng */
+  background-color: #000 !important; /* Nền của các phần tử bên trong cũng là màu đen */
+}
+
 /* button */
 .button_item {
   padding: 20px 35px;
@@ -317,6 +330,35 @@ h1 {
   justify-content: flex-end;
   align-items: center;
   position: relative;
+  padding: 30px;
+}
+
+.Services_content span {
+  font-size: 22px;
+  padding-bottom: 50px;
+}
+
+.Services_right h2 {
+  text-align: center; /* Căn giữa văn bản của thẻ <h2> */
+}
+
+.Services_right {
+  text-align: left; /* Căn toàn bộ văn bản bên trong về bên trái */
+}
+
+.Services_right p {
+  margin: 0; /* Loại bỏ margin mặc định để căn đầu dòng */
+  padding: 0; /* Loại bỏ padding mặc định để căn đầu dòng */
+}
+
+.text1 {
+  margin: 0; /* Loại bỏ margin của thẻ div bao bọc */
+  padding: 0; /* Loại bỏ padding của thẻ div bao bọc */
+}
+
+.text1 p {
+  margin: 0; /* Đảm bảo thẻ <p> bên trong .text1 không có margin */
+  padding: 0; /* Đảm bảo thẻ <p> bên trong .text1 không có padding */
 }
 
 .Services_left {
@@ -353,10 +395,6 @@ h1 {
 }
 
 /* footer  */
-.footer {
-  background-image: url(./sui.svg);
-}
-
 .footer .title1 h1 {
   color: #f8ae56;
   font-size: 50px;

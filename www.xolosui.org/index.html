@@ -131,6 +131,7 @@
         <h1>Meme Generator</h1>
         <p>XOLO SUI</p>
       </div>
+      
 
       <div class="content">
         <div class="image-container">
@@ -802,14 +803,41 @@
             class="Services_right wow animate__animated animate__fadeInRight animate__delay-2s"
             data-wow-duration="2s"
           >
+          <h2 style="padding-bottom: 20px;">Why not $XOLO?</h2>
             <p>
-              Why not $XOLO? Axolotl is a Mexican Salamander that originated from the love of animals that look like water dragons that currently exist on earth. The Team has been constantly creative to bring this mascot to the sui ecosystem, constantly improving accordingly. suitable for the cryptocurrency space. bringing a new MEME standard for the entire ecosystem of safety, comfort, entertainment, and
+               Axolotl is a Mexican Salamander that originated from the love of animals that look like water dragons that currently exist on earth. The Team has been constantly creative to bring this mascot to the sui ecosystem, constantly improving accordingly. suitable for the cryptocurrency space. bringing a new MEME standard for the entire ecosystem of safety, comfort, entertainment, and profit. 
             </p>
-            <p>profit. $XOLO Live on Turbos finance Coin-Type: <br> xc2fcc260e8279094295d5423118afe3b5c7e73c5f2fc645cbd2031612e5a1611::xolo_::XOLO_</p>
+            <div class="text1">
+              <p>$XOLO Live on Turbos finance</p>
+              <p style="font-size: 15px;"><span>Coin-Type:</span> <br> xc2fcc260e8279094295d5423118afe3b5c7e73c5f2fc645cbd2031612e5a1611::xolo_::XOLO_</p></div>
+            
           </div>
         </div>
       </div>
     </section>
+
+    <div class="topbar-chart iq-chart">
+      <div class="container-fluid">
+          <div class="row">
+              <script>
+                  baseUrl = "https://widgets.cryptocompare.com/";
+                  var scripts = document.getElementsByTagName("script");
+                  var embedder = scripts[scripts.length - 1];
+                  var cccTheme = { "General": { "background": "#000", "priceText": "#fff" }, "Currency": { "color": "#fff" } };
+                  (function() {
+                      var appName = encodeURIComponent(window.location.hostname);
+                      if (appName == "") { appName = "local"; }
+                      var s = document.createElement("script");
+                      s.type = "text/javascript";
+                      s.async = true;
+                      var theUrl = baseUrl + 'serve/v1/coin/scroller?fsyms=BTC,ETH,USDT,BUSD,CFX,XRP,SOL&tsyms=USD';
+                      s.src = theUrl + (theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+                      embedder.parentNode.appendChild(s);
+                  })();
+              </script>
+          </div>
+      </div>
+  </div>
 
     <!-- footer  -->
     <section class="footer">
